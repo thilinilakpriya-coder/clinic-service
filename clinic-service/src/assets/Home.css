@@ -1,0 +1,16 @@
+.hero-section h1 {
+    color: #009999;
+  }
+  
+  .departments h3,
+  .news-section h3 {
+    color: #009999;
+  }
+  
+  .departments .card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+  }
+  
+
+  

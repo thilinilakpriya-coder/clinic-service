@@ -1,0 +1,21 @@
+.auth-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to bottom right, #f0fff4, #e6ffe6);
+  }
+  
+  .auth-section .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .auth-section .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  .auth-section .form-control:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.3);
+  }
+  

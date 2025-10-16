@@ -1,0 +1,59 @@
+.dashboard {
+    background-color: #f9fbfc;
+    min-height: 100vh;
+    color: #333;
+  }
+  
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .profile-pic {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .search-bar {
+    border-radius: 50px;
+    padding: 8px 15px;
+  }
+  
+  .stat-card {
+    border-radius: 20px;
+    background: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  .stat-card .icon {
+    font-size: 25px;
+    color: #00bfa6;
+  }
+  
+  .footer {
+    background-color: #059669;
+  }
+  
+  .footer ul li {
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+  
+  .footer ul li:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .dashboard-header {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .search-bar {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,117 @@
+/* Navbar Container */
+.navbar {
+  
+    background-color:  rgb(216, 241, 238);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 3px 0;
+    width: 100%;
+   }
+  
+  /* Inside Container */
+  .nav-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+  }
+  
+  /* Logo & Brand */
+  .nav-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 50px;
+  }
+  
+  .nav-logo {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .brand {
+    display: flex;
+    flex-direction: column;
+    line-height: -1; /* අතුරු line space එක අඩු කරනවා */
+    
+  }
+  
+  
+  
+  .brand-name span {
+    color: #000; /* “Care” එකේ වෙනම පාටක් ඕනේ නම් මෙහි */
+  }
+  .brand-image {
+    width: 120px;
+    height: auto;
+    position: relative;
+    top: 15px;    /* ඉහළ / පහළ adjust */
+    left: 0px;   /* right / left adjust */
+  }
+  
+  
+  
+  
+  
+  /* Nav Links */
+  .nav-links {
+    display: flex;
+    gap: 25px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    transition: color 0.3s;
+    
+  }
+  
+  .nav-links a:hover {
+    color: #20beac;
+  }
+  .nav-links a.home-link {
+    color: rgb(84, 219, 216);
+  }
+  
+  
+  /* Book Button */
+  .book-btn {
+    background-color: #02b092;
+    color: #fff;
+    border: none;
+    margin-left: 100px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .book-btn:hover {
+    background-color: #01997f;
+  }
+  
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .nav-container {
+      flex-direction: column;
+      gap: 15px;
+      padding: 10px;
+    }
+  
+    .nav-links {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+  
+    .book-btn {
+        margin-left: 0;
+      width: 80%;
+    }
+  }
+  
+  

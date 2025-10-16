@@ -1,0 +1,15 @@
+.appointments-page{padding:24px;max-width:1100px;margin:0 auto}
+.appts-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.appts-controls input, .appts-controls select{padding:8px;border-radius:6px;border:1px solid #cfe9d6;margin-left:8px}
+.appt-table .header{font-weight:700;border-bottom:1px solid #e6f4ea;padding-bottom:8px}
+.appt-row{display:flex;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid #f0f6f2}
+.appt-row.header{background:transparent}
+.col{flex:1}
+.col.date{min-width:180px}
+.col.actions{min-width:180px;display:flex;gap:8px}
+.appt-row .actions button{padding:6px 10px;border-radius:6px;border:1px solid transparent;background:#e6f4ea;color:#063018}
+.card{background:#fff;padding:16px;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,.04);border:1px solid #e8f5e9}
+.empty{padding:24px;text-align:center}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,0.4);display:flex;align-items:center;justify-content:center}
+.modal-inner{background:#fff;padding:20px;border-radius:8px;max-width:600px;width:100%}
+@media(max-width:880px){.appt-row{flex-direction:column;align-items:flex-start}.col.actions{width:100%;display:flex;justify-content:flex-start}}
